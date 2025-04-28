@@ -8,10 +8,10 @@
 <body>
     <nav>
         <ul style="display:flex; list-style-type: none; justify-content: flex-end;">
-            <li style="margin-right: 20px;"><a href="./index.html">Pocetna</a></li>
-            <li style="margin-right: 20px;"><a href="./project.html">Projekti</a></li>
-            <li style="margin-right: 20px;"><a href="./about.html">O meni</a></li>
-            <li style="margin-right: 20px;"><a href="./contact.html">Kontakt</a></li>
+            <li style="margin-right: 20px;"><a href="./index.html" style="text-decoration: none;">Pocetna</a></li>
+            <li style="margin-right: 20px;"><a href="./project.html" style="text-decoration: none;">Projekti</a></li>
+            <li style="margin-right: 20px;"><a href="./about.html" style="text-decoration: none;">O meni</a></li>
+            <li style="margin-right: 20px;"><a href="./contact.html" style="text-decoration: none;">Kontakt</a></li>
         </ul>
     </nav>
     <h1>Zelis Suradivati?</h1>
@@ -31,13 +31,13 @@
             placeholder="Tvoj email" 
             required><br><br>
         <label for="newsletter"></label>
-        <input 
+        <input checked
             type="checkbox" 
             id="newsletter" 
             name="newsletter" 
             value="yes"> Prijavi se na newsletter<br><br>
         <button onclick="submitForm()">Posalji</button>
-        <input type="submit" value="Submit">
+       <!-- <input type="submit" value="Submit">-->
     </form>
     <hr>
 </body>
